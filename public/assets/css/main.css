@@ -1512,7 +1512,6 @@ a.rr-a-btn:hover {
   background-repeat: repeat-y;
   left: 46px;
   top: 0;
-  background-image: url(../imgs/breadcrumb/shpae-1.png);
   opacity: 0.2;
   background-size: contain;
 }
@@ -5399,6 +5398,7 @@ body .ui-tooltip {
   }
 }
 .cta__media img {
+  
   mask-mode: alpha;
   -webkit-mask-size: 670px;
           mask-size: 670px;
@@ -8540,7 +8540,7 @@ body .ui-tooltip {
 .testimonial__media {
   border-radius: 20px;
   background-color: var(--rr-common-white);
-  background-image: url(../imgs/testimonial/testimonial-shape.svg);
+  /*background-image: url(../imgs/testimonial/testimonial-shape.svg);*/
   background-repeat: no-repeat;
   background-position: -56px -48px;
   padding-top: 24px;
@@ -10795,7 +10795,7 @@ body .ui-tooltip {
   top: -403px;
   width: 100%;
   height: 100%;
-  background-image: url("../imgs/home-2/background.svg");
+  /*background-image: url("../imgs/home-2/background.svg");*/
 }
 
 .pricing-action-2__content {
@@ -11003,7 +11003,7 @@ body .ui-tooltip {
   z-index: -1;
   width: 100%;
   height: 100%;
-  background-image: url("../imgs/home-3/background.svg");
+  /*background-image: url("../imgs/home-3/background.svg");*/
 }
 
 .why-choose-us {

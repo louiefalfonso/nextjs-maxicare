@@ -5,7 +5,7 @@
   &__media {
     @include border-radius(20px);
     background-color: var(--rr-common-white);
-    background-image: url(../imgs/testimonial/testimonial-shape.svg);
+    /*background-image: url(../imgs/testimonial/testimonial-shape.svg);*/
     background-repeat: no-repeat;
     background-position: -56px -48px;
     padding-top: 24px;

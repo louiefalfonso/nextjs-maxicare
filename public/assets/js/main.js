@@ -2,16 +2,6 @@
     "use strict";
     var windowOn = $(window);
 
-    /*-----------------------------------------------------------------------------------
-        Template Name: Medilix - Healthcare & Medical Bootstrap HTML5 Template
-        Author: RRDevs
-        Support: https://support.rrdevs.net
-        Description: Medilix - Healthcare & Medical Bootstrap HTML5 Template.
-        Version: 1.0
-        Developer: Sabbir Ahmmed (https://github.com/ahmmedsabbirbd)
-    -----------------------------------------------------------------------------------
-
-     */
    /*======================================
    Data Css js
    ========================================*/
