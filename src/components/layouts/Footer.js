@@ -6,7 +6,7 @@ const Footer = () => {
       <footer>
         <section
           className="footer__area-common white-bg overflow-hidden"
-          data-background="assets/imgs/footer/background.png"
+          data-background="/imgs/footer/background.png"
         >
           <div className="container">
             <div className="row mb-minus-50">
@@ -16,7 +16,7 @@ const Footer = () => {
                     <a href="index.html">
                       <img
                         className="img-fluid"
-                        src="assets/imgs/logo/footer-logo.svg"
+                        src="/imgs/logo/footer-logo.svg"
                         alt="logo not found"
                       />
                     </a>

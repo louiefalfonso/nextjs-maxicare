@@ -7,13 +7,13 @@ const Navigation = () => {
         <nav id="mobile-menu">
           <ul>
             <li className="has-dropdown has-mega-menu active">
-              <a href="javascript:void(0)">Home</a>
+              <a href="/">Home</a>
               <ul className="mega-menu mega-menu-grid-3">
                 <li>
                   <div className="home__menu-item">
                     <div className="home__menu-thumb">
                       <img
-                        src="assets/imgs/menu/menu-home-1.jpg"
+                        src="/imgs/menu/menu-home-1.jpg"
                         alt="thumb not found"
                       />
                       <div className="home__menu-buttons">
@@ -46,7 +46,7 @@ const Navigation = () => {
                   <div className="home__menu-item">
                     <div className="home__menu-thumb">
                       <img
-                        src="assets/imgs/menu/menu-home-2.jpg"
+                        src="/imgs/menu/menu-home-2.jpg"
                         alt="thumb not found"
                       />
                       <div className="home__menu-buttons">
@@ -79,7 +79,7 @@ const Navigation = () => {
                   <div className="home__menu-item">
                     <div className="home__menu-thumb">
                       <img
-                        src="assets/imgs/menu/menu-home-3.jpg"
+                        src="/imgs/menu/menu-home-3.jpg"
                         alt="thumb not found"
                       />
                       <div className="home__menu-buttons">
@@ -111,7 +111,7 @@ const Navigation = () => {
               </ul>
             </li>
             <li className="has-dropdown ">
-              <a href="javascript:void(0)">Pages</a>
+              <a href="#">Pages</a>
               <ul className="submenu">
                 <li>
                   <a href="faq.html">Faq</a>

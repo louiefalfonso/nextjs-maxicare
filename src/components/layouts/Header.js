@@ -13,14 +13,14 @@ const Header = () => {
                   <a href="index.html">
                     <div className="logo">
                       <img
-                        src="assets/imgs/logo/logo.svg"
+                        src="/imgs/logo/logo.svg"
                         alt="logo not found"
                       />
                     </div>
                   </a>
                 </div>
                 <div className="mean__menu-wrapper d-none d-lg-block">
-                  <Navigation/>
+                  <Navigation />
                 </div>
                 <div className="header__right">
                   <div className="header__action d-flex align-items-center">
@@ -38,7 +38,7 @@ const Header = () => {
                     </div>
                     <div className="header__hamburger ml-20 d-xl-none">
                       <div className="sidebar__toggle">
-                        <a className="bar-icon" href="javascript:void(0)">
+                        <a className="bar-icon" href="/">
                           <span />
                           <span />
                           <span />

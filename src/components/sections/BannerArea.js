@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const BannerArea = () => {
   return (
@@ -34,7 +34,7 @@ const BannerArea = () => {
                 <div className="banner-3__item-media">
                   <img
                     className="img-fluid"
-                    src="assets/imgs/banner-3/banner-1.png"
+                    src="/imgs/banner-3/banner-1.png"
                     alt="icon not found"
                   />
                 </div>
@@ -46,7 +46,7 @@ const BannerArea = () => {
                 <div className="banner-3__item-media">
                   <img
                     className="img-fluid"
-                    src="assets/imgs/banner-3/banner-2.png"
+                    src="/imgs/banner-3/banner-2.png"
                     alt="icon not found"
                   />
                 </div>
@@ -58,7 +58,7 @@ const BannerArea = () => {
                 <div className="banner-3__item-media">
                   <img
                     className="img-fluid"
-                    src="assets/imgs/banner-3/banner-3.png"
+                    src="/imgs/banner-3/banner-3.png"
                     alt="icon not found"
                   />
                 </div>

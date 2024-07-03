@@ -6,7 +6,7 @@ const Breadcrumb = ({ breadcrumbTitle }) => {
       <div class="breadcrumb__area header__background-color breadcrumb__header-up breadcrumb-space overly overflow-hidden">
         <div
           class="breadcrumb__background"
-          data-background="./assets/imgs/breadcrumb/page-header-1.png"
+          data-background="/imgs/breadcrumb/page-header-1.png"
         ></div>
         <div class="container">
           <div class="row align-items-center justify-content-between">
