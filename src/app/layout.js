@@ -1,8 +1,6 @@
-import { Inter } from "next/font/google";
-import "@/assets/js/resources";
-import "@/assets/css/resources.css";
 
-const inter = Inter({ subsets: ["latin"] });
+import Script from "next/script";
+//import "../../public/js/resources"
 
 export const metadata = {
   title: "Create Next App",
@@ -11,8 +9,46 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html className="no-js"  lang="en">
+      <head>
+        <link rel="stylesheet" href="/css/vendor/bootstrap.min.css"/>
+        <link rel="stylesheet" href="/css/vendor/animate.min.css"/>
+        <link rel="stylesheet" href="/css/plugins/swiper.min.css"/>
+        <link rel="stylesheet" href="/css/vendor/magnific-popup.css"/>
+        <link rel="stylesheet" href="/css/vendor/fontawesome-pro.css"/>
+        <link rel="stylesheet" href="/css/vendor/spacing.css"/> 
+        <link rel="stylesheet" href="/css/plugins/odometer-theme-default.css"/>
+        <link rel="stylesheet" href="/css/main.css"/>
+      </head>
+
+
+      <body suppressHydrationWarning={true} className="body-3">
+        {children}
+      </body>
+
+     
+      <Script strategy="afterInteractive" defer src="/js/vendor/jquery-3.7.1.min.js"/>
+      <Script strategy="afterInteractive" defer src="/js/plugins/waypoints.min.js"/>
+      <Script strategy="afterInteractive" defer src="/js/vendor/bootstrap.bundle.min.js"/>
+      <Script strategy="afterInteractive" defer src="/js/plugins/meanmenu.min.js"/>
+      <Script strategy="afterInteractive" defer src="/js/plugins/odometer.min.js"/>
+      <Script strategy="afterInteractive" defer src="/js/plugins/swiper.min.js"/>
+      <Script strategy="afterInteractive" defer src="/js/plugins/wow.js"/>
+      <Script strategy="afterInteractive" defer src="/js/vendor/magnific-popup.min.js"/>
+      <Script strategy="afterInteractive" defer src="/js/vendor/type.js"/>
+      <Script strategy="afterInteractive" defer src="/js/plugins/nice-select.min.js"/>
+      <Script strategy="afterInteractive" defer src="/js/vendor/jquery-ui.min.js"/>
+      <Script strategy="afterInteractive" defer src="/js/vendor/jquery.appear.js"/>
+      <Script strategy="afterInteractive" defer src="/js/plugins/parallax.min.js"/>
+      <Script strategy="afterInteractive" defer src="/js/plugins/parallax-scroll.js"/>
+      <Script strategy="afterInteractive" defer src="/js/plugins/gsap.min.js"/>
+      <Script strategy="afterInteractive" defer src="/js/plugins/ScrollTrigger.min.js"/>
+      <Script strategy="afterInteractive" defer src="/js/plugins/SplitText.js"/>
+      <Script strategy="afterInteractive" defer src="/js/plugins/tween-max.min.js"/>
+      <Script strategy="afterInteractive" defer src="/js/plugins/draggable.min.js"/>
+      <Script strategy="afterInteractive" defer src="/js/plugins/smoothscroll.js"/>
+      <Script strategy="afterInteractive" defer src="/js/vendor/ajax-form.js"/>
+      <Script strategy="afterInteractive" defer src="/js/main.js"/> 
     </html>
   );
 }
