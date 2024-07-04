@@ -1,4 +1,9 @@
 import React from "react";
+import Image from "next/image";
+
+import banner1 from "@/public/imgs/banner-3/banner-1.png";
+import banner2 from "@/public/imgs/banner-3/banner-2.png";
+import banner3 from "@/public/imgs/banner-3/banner-3.png";
 
 const BannerArea = () => {
   return (
@@ -32,9 +37,9 @@ const BannerArea = () => {
               <div className="banner-3__item position-relative overflow-hidden">
                 <div className="panel wow" />
                 <div className="banner-3__item-media">
-                  <img
+                  <Image
                     className="img-fluid"
-                    src="/imgs/banner-3/banner-1.png"
+                    src={banner1}
                     alt="icon not found"
                   />
                 </div>
@@ -44,9 +49,9 @@ const BannerArea = () => {
               <div className="banner-3__item position-relative overflow-hidden">
                 <div className="panel wow" />
                 <div className="banner-3__item-media">
-                  <img
+                  <Image
                     className="img-fluid"
-                    src="/imgs/banner-3/banner-2.png"
+                    src={banner2}
                     alt="icon not found"
                   />
                 </div>
@@ -56,9 +61,9 @@ const BannerArea = () => {
               <div className="banner-3__item position-relative overflow-hidden">
                 <div className="panel wow" />
                 <div className="banner-3__item-media">
-                  <img
+                  <Image
                     className="img-fluid"
-                    src="/imgs/banner-3/banner-3.png"
+                    src={banner3}
                     alt="icon not found"
                   />
                 </div>

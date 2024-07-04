@@ -1,4 +1,6 @@
 import React from 'react'
+import Image from 'next/image';
+import MainLogo from "@/public/imgs/logo/logo-white.svg";
 
 const OffCanvasMenu = () => {
   return (
@@ -10,8 +12,8 @@ const OffCanvasMenu = () => {
               <div className="offcanvas__top d-flex justify-content-between align-items-center">
                 <div className="offcanvas__logo">
                   <a href="index.html">
-                    <img
-                      src="/imgs/logo/logo-white.svg"
+                    <Image
+                      src={MainLogo}
                       alt="logo not found"
                     />
                   </a>

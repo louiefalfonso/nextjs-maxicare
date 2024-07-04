@@ -1,4 +1,14 @@
 import React from "react";
+import Image from "next/image";
+import icon from "@/public/imgs/ask-quesiton/heart.png";
+import icon1 from "@/public/imgs/service-2/service-icon-1.png";
+import icon2 from "@/public/imgs/service-2/service-icon-2.png";
+import icon3 from "@/public/imgs/service-2/service-icon-3.png";
+
+import service1 from "@/public/imgs/service-2/service-1.jpg";
+import service2 from "@/public/imgs/service-2/service-2.jpg";
+import service3 from "@/public/imgs/service-2/service-3.jpg";
+
 
 const ServiceArea = () => {
   return (
@@ -9,8 +19,8 @@ const ServiceArea = () => {
             <div className="col-lg-6">
               <div className="section__title-wrapper mb-md-30 mb-mb-30 mb-xs-30">
                 <h5 className="section__subtitle color-theme-primary mb-15 mb-xs-10 title-animation">
-                  <img
-                    src="/imgs/ask-quesiton/heart.png"
+                  <Image
+                    src={icon}
                     alt="icon not found"
                     className="img-fluid"
                   />{" "}
@@ -42,18 +52,18 @@ const ServiceArea = () => {
                         href="service-details.html"
                         className="service-2__item-media"
                       >
-                        <img
+                        <Image
                           className="img-fluid"
-                          src="/imgs/service-2/service-1.jpg"
+                          src={service1}
                           alt="image not found"
                         />
                       </a>
                       <div className="service-2__item-content">
                         <h4 className="mb-20 mb-xs-15 d-flex align-items-start">
                           <a href="blog-details.html">
-                            <img
+                            <Image
                               className="img-fluid mr-15"
-                              src="/imgs/service-2/service-icon-1.png"
+                              src={icon1}
                               alt="icon not found"
                             />
                             InspireHealth Hub
@@ -79,18 +89,18 @@ const ServiceArea = () => {
                         href="service-details.html"
                         className="service-2__item-media"
                       >
-                        <img
+                        <Image
                           className="img-fluid"
-                          src="/imgs/service-2/service-2.jpg"
+                          src={service2}
                           alt="image not found"
                         />
                       </a>
                       <div className="service-2__item-content">
                         <h4 className="mb-20 mb-xs-15 d-flex align-items-start">
                           <a href="blog-details.html">
-                            <img
+                            <Image
                               className="img-fluid mr-15"
-                              src="/imgs/service-2/service-icon-2.png"
+                              src={icon2}
                               alt="icon not found"
                             />
                             Wellness Solutions
@@ -116,18 +126,18 @@ const ServiceArea = () => {
                         href="service-details.html"
                         className="service-2__item-media"
                       >
-                        <img
+                        <Image
                           className="img-fluid"
-                          src="/imgs/service-2/service-3.jpg"
+                          src={service3}
                           alt="image not found"
                         />
                       </a>
                       <div className="service-2__item-content">
                         <h4 className="mb-20 mb-xs-15 d-flex align-items-start">
                           <a href="blog-details.html">
-                            <img
+                            <Image
                               className="img-fluid mr-15"
-                              src="/imgs/service-2/service-icon-3.png"
+                              src={icon3}
                               alt="icon not found"
                             />
                             Healing Healthcare

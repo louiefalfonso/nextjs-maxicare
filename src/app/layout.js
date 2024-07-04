@@ -9,7 +9,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html className="no-js"  lang="en">
       <head>
         <link rel="stylesheet" href="/css/vendor/bootstrap.min.css"/>
         <link rel="stylesheet" href="/css/vendor/animate.min.css"/>
