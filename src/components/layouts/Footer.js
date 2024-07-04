@@ -1,4 +1,8 @@
 import React from 'react'
+import Image from 'next/image';
+import FooterBg from "@/public/imgs/footer/background.png";
+import MainLogo from "@/public/imgs/logo/logo.svg";
+
 
 const Footer = () => {
   return (
@@ -6,7 +10,7 @@ const Footer = () => {
       <footer>
         <section
           className="footer__area-common white-bg overflow-hidden"
-          data-background="/imgs/footer/background.png"
+          data-background={FooterBg}
         >
           <div className="container">
             <div className="row mb-minus-50">
@@ -14,9 +18,9 @@ const Footer = () => {
                 <div className="footer__widget footer__widget-item-1">
                   <div className="footer__logo mb-30 mb-xs-25">
                     <a href="index.html">
-                      <img
+                      <Image
                         className="img-fluid"
-                        src="/imgs/logo/footer-logo.svg"
+                        src={MainLogo}
                         alt="logo not found"
                       />
                     </a>
