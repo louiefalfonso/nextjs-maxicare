@@ -1,6 +1,5 @@
 
 import Script from "next/script";
-//import "../../public/js/resources"
 
 export const metadata = {
   title: "Create Next App",
