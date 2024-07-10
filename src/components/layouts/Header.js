@@ -15,10 +15,7 @@ const Header = () => {
                 <div className="header__logo">
                   <a href="index.html">
                     <div className="logo">
-                      <Image
-                        src={MainLogo}
-                        alt="logo not found"
-                      />
+                      <img src="/imgs/logo/logo.svg" alt="logo not found" />
                     </div>
                   </a>
                 </div>
