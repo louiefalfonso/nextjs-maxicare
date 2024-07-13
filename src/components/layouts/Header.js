@@ -1,8 +1,5 @@
 import React from 'react'
 import Navigation from './Navigation';
-import Image from 'next/image';
-
-import MainLogo from "@/public/imgs/logo/logo.svg";
 
 const Header = () => {
   return (
@@ -15,7 +12,7 @@ const Header = () => {
                 <div className="header__logo">
                   <a href="index.html">
                     <div className="logo">
-                      <img src="/imgs/logo/logo.svg" alt="logo not found" />
+                      <img src="/imgs/logo/logo-black.svg" alt="logo not found"></img>
                     </div>
                   </a>
                 </div>

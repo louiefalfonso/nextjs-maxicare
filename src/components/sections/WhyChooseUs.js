@@ -1,5 +1,7 @@
 import React from 'react'
 
+import whycus1 from "@/public/imgs/why-choose-us/why-choose-us-shap-2.png";
+
 const WhyChooseUs = () => {
   return (
     <>

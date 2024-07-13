@@ -6,7 +6,6 @@ import Pricing from '../sections/Pricing';
 import AboutUs from '../sections/AboutUs';
 import BrandArea from '../sections/BrandArea';
 import Specialist from '../sections/Specialist';
-import ExperienceArea from '../sections/ExperienceArea';
 import LatestWork from '../sections/LatestWork';
 import ServicesArea from '../sections/ServicesArea';
 import ClientTestimonial from '../sections/ClientTestimonial';
