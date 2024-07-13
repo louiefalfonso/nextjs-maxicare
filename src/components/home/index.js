@@ -9,6 +9,9 @@ import Specialist from '../sections/Specialist';
 import ExperienceArea from '../sections/ExperienceArea';
 import LatestWork from '../sections/LatestWork';
 import ServicesArea from '../sections/ServicesArea';
+import ClientTestimonial from '../sections/ClientTestimonial';
+import SliderTextArea from '../sections/SliderTextArea';
+import BlogArea from '../sections/BlogArea';
 
 const HomePage = () => {
   return (
@@ -23,6 +26,9 @@ const HomePage = () => {
         <Specialist/>
         <LatestWork/>
         <ServicesArea/>
+        <ClientTestimonial/>
+        <SliderTextArea/>
+        <BlogArea/>
       </main>
     </>
   );
