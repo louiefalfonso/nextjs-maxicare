@@ -9,10 +9,10 @@ const MainLayout = ({ children }) => {
   return (
     <>
       <Header />
+      <OffCanvasMenu />
       {children}
       <ScrollToTop />
-      <OffCanvasMenu />
-      <FooterCta/>
+      <FooterCta />
       <Footer />
     </>
   );
