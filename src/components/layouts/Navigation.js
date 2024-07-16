@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link';
 
 const Navigation = () => {
   return (
@@ -7,22 +8,10 @@ const Navigation = () => {
         <nav id="mobile-menu">
           <ul>
             <li className="active">
-              <a href="/">Home</a>
+              <Link href="/">Home</Link>
             </li>
             <li>
-              <a href="about-us.html">About us</a>
-            </li>
-            <li>
-              <a href="appoinment.html">Appointment</a>
-            </li>
-            <li>
-              <a href="service.html">Service</a>
-            </li>
-            <li>
-              <a href="faq.html">FAQ</a>
-            </li>
-            <li>
-              <a href="contact.html">contact</a>
+              <Link href="/aboutus">About Us</Link>
             </li>
           </ul>
         </nav>
