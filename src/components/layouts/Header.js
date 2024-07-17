@@ -35,7 +35,7 @@ const Header = () => {
                     </div>
                     <div className="header__hamburger ml-20 d-xl-none">
                       <div className="sidebar__toggle">
-                        <a className="bar-icon" href="/">
+                        <a className="bar-icon" href="javascript:void(0)">
                           <span />
                           <span />
                           <span />
