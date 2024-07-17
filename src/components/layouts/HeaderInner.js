@@ -1,6 +1,7 @@
-import React from 'react'
-import Navigation from './Navigation';
-import Link from 'next/link';
+"use client";
+import React from "react";
+import Navigation from "./Navigation";
+import Link from "next/link";
 
 const HeaderInner = () => {
   return (
@@ -81,7 +82,11 @@ const HeaderInner = () => {
                     </div>
                     <div className="header__hamburger">
                       <div className="sidebar__toggle">
-                        <a className="bar-icon" href="javascript:void(0)">
+                        <a
+                          className="bar-icon"
+                          onClick={(e) => e.preventDefault()}
+                          //href="javascript:void(0)"
+                        >
                           <span />
                           <span />
                           <span />
@@ -97,6 +102,6 @@ const HeaderInner = () => {
       </header>
     </>
   );
-}
+};
 
-export default HeaderInner
+export default HeaderInner;

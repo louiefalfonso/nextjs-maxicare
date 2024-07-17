@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import Navigation from './Navigation';
 
@@ -12,7 +13,10 @@ const Header = () => {
                 <div className="header__logo">
                   <a href="index.html">
                     <div className="logo">
-                      <img src="/imgs/logo/logo-black.svg" alt="logo not found"></img>
+                      <img
+                        src="/imgs/logo/logo-black.svg"
+                        alt="logo not found"
+                      ></img>
                     </div>
                   </a>
                 </div>
@@ -35,7 +39,11 @@ const Header = () => {
                     </div>
                     <div className="header__hamburger ml-20 d-xl-none">
                       <div className="sidebar__toggle">
-                        <a className="bar-icon" href="javascript:void(0)">
+                        <a
+                          className="bar-icon"
+                          //href="javascript:void(0)"
+                          onClick={(e) => e.preventDefault()}
+                        >
                           <span />
                           <span />
                           <span />
