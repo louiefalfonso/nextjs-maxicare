@@ -1,5 +1,7 @@
-import React from 'react'
-import Navigation from './Navigation';
+"use client";
+import React from "react";
+import Navigation from "./Navigation";
+import Link from "next/link";
 
 const HeaderInner = () => {
   return (
@@ -60,14 +62,11 @@ const HeaderInner = () => {
             <div className="mega__menu-wrapper p-relative">
               <div className="header__main">
                 <div className="header__logo">
-                  <a href="index.html">
+                  <Link href="/">
                     <div className="logo">
-                      <img
-                        src="/imgs/logo/logo.svg"
-                        alt="logo not found"
-                      />
+                      <img src="/imgs/logo/logo.svg" alt="logo not found" />
                     </div>
-                  </a>
+                  </Link>
                 </div>
                 <div className="mean__menu-wrapper d-none d-lg-block">
                   <Navigation />
@@ -83,7 +82,11 @@ const HeaderInner = () => {
                     </div>
                     <div className="header__hamburger">
                       <div className="sidebar__toggle">
-                        <a className="bar-icon" href="javascript:void(0)">
+                        <a
+                          className="bar-icon"
+                          onClick={(e) => e.preventDefault()}
+                          //href="javascript:void(0)"
+                        >
                           <span />
                           <span />
                           <span />
@@ -99,6 +102,6 @@ const HeaderInner = () => {
       </header>
     </>
   );
-}
+};
 
-export default HeaderInner
+export default HeaderInner;

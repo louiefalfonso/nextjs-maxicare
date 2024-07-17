@@ -8,8 +8,7 @@ export default function Home() {
     <>
     <MainLayout>
       <HomePage/>
-    </MainLayout>
-    
+    </MainLayout> 
     </>
   );
 }
