@@ -1,7 +1,4 @@
-import React from 'react'
-import Image from 'next/image';
-import MainLogo from "@/public/imgs/logo/logo.svg";
-
+import React from 'react';
 
 const Footer = () => {
   return (
@@ -17,13 +14,17 @@ const Footer = () => {
                 <div className="footer__widget footer__widget-item-1">
                   <div className="footer__logo mb-30 mb-xs-25">
                     <a href="index.html">
-                      <img className="img-fluid" src="/imgs/logo/footer-logo.svg" alt="logo not found"></img>
+                      <img
+                        className="img-fluid"
+                        src="/imgs/logo/st-lukes-logo-header.svg"
+                        alt="logo not found"
+                      ></img>
                     </a>
                   </div>
                   <div className="footer__content">
                     <p className="mb-0">
-                      It is a long established fact that a reader will be
-                      distracted
+                      Et purus duis sollicitudin dignissim habitant. Egestas
+                      nulla quis venenatis cras sed eu massa eu faucibus
                     </p>
                   </div>
                   <div className="footer__social mt-30 mt-xs-30">
@@ -83,8 +84,8 @@ const Footer = () => {
                   </div>
                   <div className="footer__subscribe-content">
                     <p className="mb-30 mb-xs-25">
-                      Custom Software Development Tailored Solutions for Your
-                      Business Custom{" "}
+                      Et purus duis sollicitudin dignissim habitant. Egestas
+                      nulla quis venenatis cras sed eu massa eu faucibus
                     </p>
                     <div className="footer__subscribe d-flex mt-30 mt-xs-25">
                       <input type="text" placeholder="Enter e-mail" />
@@ -110,16 +111,23 @@ const Footer = () => {
                   <div className="footer__link footer__link-location">
                     <ul>
                       <li>
-                        <a href="mailto:debra.holt@example.com">
+                        <a href="">
                           <i className="fa-solid fa-envelope" />{" "}
-                          debra.holt@example.com
+                          customer.bgc@stlukes.com.ph
                         </a>
                       </li>
                       <li>
-                        <a href="https://maps.app.goo.gl/4XYAPDmpesGnSbsC8">
-                          <i className="fa-solid fa-location-dot" /> 3891
-                          Ranchview Dr. Richardson, California 62639
-                        </a>
+                        
+                          <i className="fa-solid fa-location-dot" /> 279 E
+                          Rodriguez Sr. Ave. Quezon City, 1112
+                        
+                      </li>
+                      <li>
+                        
+                          <i className="fa-solid fa-location-dot" /> Rizal Drive
+                          cor. 32nd St. and 5th Ave., Taguig, 1634
+                          +63-2-8789-7700
+                        
                       </li>
                     </ul>
                   </div>
@@ -134,8 +142,7 @@ const Footer = () => {
                   <div className="col-lg-6">
                     <div className="footer__copyright text-lg-start text-center">
                       <p className="mb-0">
-                        © <a href="index.html">Medilix</a> 2024 | All Rights
-                        Reserved
+                        © St. Lukes Medical Center 2024 | All Rights Reserved
                       </p>
                     </div>
                   </div>

@@ -11,7 +11,7 @@ const OffCanvasMenu = () => {
                 <div className="offcanvas__logo">
                   <a href="index.html">
                     <img
-                      src="/imgs/logo/logo-black.svg"
+                      src="/imgs/logo/st-lukes-logo-header.svg"
                       alt="logo not found"
                     ></img>
                   </a>

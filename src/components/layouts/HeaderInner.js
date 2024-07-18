@@ -10,21 +10,22 @@ const HeaderInner = () => {
         <div className="header-4-top theme-bg-primary">
           <div className="container">
             <div className="row">
-              <div className="col-8 d-none d-lg-block">
+              <div className="col-10 d-none d-lg-block">
                 <div className="header-4-top__menu d-flex">
-                  <a href="https://maps.app.goo.gl/BUA2hZbxWPt8EATx9">
-                    <i className="fa-solid fa-location-dot" /> 6391 Elgin St.
-                    Celina, 10299
+                  <a href="">
+                    <i className="fa-solid fa-location-dot" /> Rizal Drive cor.
+                    32nd St. and 5th Ave., Taguig, 1634
                   </a>
-                  <a href="tel:6295550129">
-                    <i className="fa-solid fa-phone" /> (629) 555-0129
+                  <a href="">
+                    <i className="fa-solid fa-phone" /> +63-2-8789-7700
                   </a>
-                  <a href="mailto:info@medilix.com">
-                    <i className="fa-solid fa-envelope" /> info@medilix.com
+                  <a href="">
+                    <i className="fa-solid fa-envelope" />{" "}
+                    customer.bgc@stlukes.com.ph
                   </a>
                 </div>
               </div>
-              <div className="col-lg-4 col-12">
+              <div className="col-lg-2 col-12">
                 <div className="header-4-top__menu-social d-flex justify-content-lg-end justify-content-center">
                   <a href="https://www.facebook.com/">
                     <i className="fab fa-facebook-f" />
@@ -64,7 +65,10 @@ const HeaderInner = () => {
                 <div className="header__logo">
                   <Link href="/">
                     <div className="logo">
-                      <img src="/imgs/logo/logo.svg" alt="logo not found" />
+                      <img
+                        src="/imgs/logo/st-lukes-logo-header.svg"
+                        alt="logo not found"
+                      />
                     </div>
                   </Link>
                 </div>
@@ -73,13 +77,6 @@ const HeaderInner = () => {
                 </div>
                 <div className="header__right">
                   <div className="header__action d-flex align-items-center">
-                    <div className="header__btn-wrap d-none d-sm-inline-flex">
-                      <div className="rr-header-icon-search">
-                        <button className="search-open-btn">
-                          <i className="fa-solid fa-magnifying-glass" />
-                        </button>
-                      </div>
-                    </div>
                     <div className="header__hamburger">
                       <div className="sidebar__toggle">
                         <a

@@ -11,7 +11,7 @@ const Breadcrumb = ({ breadcrumbTitle }) => {
         <div className="container">
           <div className="row align-items-center justify-content-between">
             <div className="col-12">
-              <div className="breadcrumb__content text-center">
+              <div className="breadcrumb__content text-left">
                 <h2 className="breadcrumb__title mb-15 mb-sm-10 mb-xs-5 color-white title-animation">
                   {breadcrumbTitle}
                 </h2>
