@@ -2,7 +2,7 @@ import React from 'react'
 
 const OffCanvasMenu = () => {
   return (
-    <>
+    <div data-testid="main-canvasmenu">
       <div className="fix">
         <div className="offcanvas__area">
           <div className="offcanvas__wrapper">
@@ -77,7 +77,7 @@ const OffCanvasMenu = () => {
       </div>
       <div className="offcanvas__overlay" />
       <div className="offcanvas__overlay-white" />
-    </>
+    </div>
   );
 }
 

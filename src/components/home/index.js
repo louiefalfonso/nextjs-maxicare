@@ -14,7 +14,7 @@ import BlogArea from '../sections/BlogArea';
 
 const HomePage = () => {
   return (
-    <>
+    <div>
       <main className="home-3__background overflow-hidden">
         <BannerArea />
         <ServiceArea />
@@ -29,7 +29,7 @@ const HomePage = () => {
         <SliderTextArea/>
         <BlogArea/>
       </main>
-    </>
+    </div>
   );
 }
 

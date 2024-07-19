@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const Header = () => {
   return (
-    <>
+    <div data-testid="main-header">
       <header>
         <div id="header-sticky" className="header__area header-1">
           <div className="container">
@@ -58,7 +58,7 @@ const Header = () => {
           </div>
         </div>
       </header>
-    </>
+    </div>
   );
 }
 

@@ -2,7 +2,7 @@ import React from 'react'
 
 const FooterCta = () => {
   return (
-    <>
+    <div data-testid="main-footercta">
       <section className="footer__cta footer__cta-bottom-up">
         <div className="container">
           <div className="row mb-minus-30">
@@ -47,7 +47,7 @@ const FooterCta = () => {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 }
 

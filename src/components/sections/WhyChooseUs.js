@@ -4,7 +4,7 @@ import whycus1 from "@/public/imgs/why-choose-us/why-choose-us-shap-2.png";
 
 const WhyChooseUs = () => {
   return (
-    <>
+    <div data-testid="whychooseus">
       <section className="why-choose-us">
         <div className="why-choose-us__shap">
           <img
@@ -105,7 +105,7 @@ const WhyChooseUs = () => {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 }
 

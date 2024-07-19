@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <>
+    <div data-testid="main-footer">
       <footer>
         <section
           className="footer__area-common white-bg overflow-hidden"
@@ -117,17 +117,12 @@ const Footer = () => {
                         </a>
                       </li>
                       <li>
-                        
-                          <i className="fa-solid fa-location-dot" /> 279 E
-                          Rodriguez Sr. Ave. Quezon City, 1112
-                        
+                        <i className="fa-solid fa-location-dot" /> 279 E
+                        Rodriguez Sr. Ave. Quezon City, 1112
                       </li>
                       <li>
-                        
-                          <i className="fa-solid fa-location-dot" /> Rizal Drive
-                          cor. 32nd St. and 5th Ave., Taguig, 1634
-                          +63-2-8789-7700
-                        
+                        <i className="fa-solid fa-location-dot" /> Rizal Drive
+                        cor. 32nd St. and 5th Ave., Taguig, 1634 +63-2-8789-7700
                       </li>
                     </ul>
                   </div>
@@ -167,7 +162,7 @@ const Footer = () => {
           </div>
         </section>
       </footer>
-    </>
+    </div>
   );
 }
 
