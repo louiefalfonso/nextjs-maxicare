@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 const Navigation = () => {
    const pathname = usePathname();
   return (
-    <>
+    <div data-testid="main-nav">
       <div className="main-menu">
         <nav id="mobile-menu">
           <ul>
@@ -15,20 +15,30 @@ const Navigation = () => {
               </Link>
             </li>
             <li>
-              <Link href="/aboutus" className={pathname == "/aboutus" ? "active" : ""}>
+              <Link
+                href="/aboutus"
+                className={pathname == "/aboutus" ? "active" : ""}
+              >
                 About Us
               </Link>
             </li>
             <li>
-              <Link href="/services" className={pathname == "/services" ? "active" : ""}>Services</Link>
+              <Link
+                href="/services"
+                className={pathname == "/services" ? "active" : ""}
+              >
+                Services
+              </Link>
             </li>
             <li>
-              <Link href="/faq" className={pathname == "/faq" ? "active" : ""}>FAQ</Link>
+              <Link href="/faq" className={pathname == "/faq" ? "active" : ""}>
+                FAQ
+              </Link>
             </li>
           </ul>
         </nav>
       </div>
-    </>
+    </div>
   );
 }
 

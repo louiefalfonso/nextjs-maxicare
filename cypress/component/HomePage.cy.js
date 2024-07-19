@@ -2,7 +2,7 @@ const { default: BannerArea } = require("@/components/sections/BannerArea");
 const { default: ServiceArea } = require("@/components/sections/ServiceArea");
 const { default: WhyChooseUs } = require("@/components/sections/WhyChooseUs");
 
-describe("Home Page Component", () => {
+describe("Home Page", () => {
   it("renders Banner Area Component and displays all images, headings, paragraph and pagination", () => {
     cy.mount(<BannerArea/>);
     cy.get('[data-testid="bannerarea"]').should("be.visible");
