@@ -7,7 +7,7 @@ import banner3 from "@/public/imgs/banner-3/banner-3.png";
 
 const BannerArea = () => {
   return (
-    <>
+    <div data-testid="bannerarea">
       <section className="banner-3 banner-3__space overflow-hidden">
         <div className="container">
           <div className="banner-3__shape" />
@@ -73,7 +73,7 @@ const BannerArea = () => {
           <div className="banner-3__pagination" />
         </div>
       </section>
-    </>
+    </div>
   );
 }
 

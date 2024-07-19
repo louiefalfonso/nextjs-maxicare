@@ -12,7 +12,7 @@ import service3 from "@/public/imgs/service-2/service-3.jpg";
 
 const ServiceArea = () => {
   return (
-    <>
+    <div data-testid="servicearea">
       <section className="service-2 section-space">
         <div className="container">
           <div className="row mb-60 mb-xs-50 align-items-lg-end align-items-center">
@@ -163,7 +163,7 @@ const ServiceArea = () => {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 }
 

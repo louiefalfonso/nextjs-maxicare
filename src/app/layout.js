@@ -43,6 +43,7 @@ export default function RootLayout({ children }) {
         <link rel="stylesheet" href="/css/vendor/spacing.css" />
         <link rel="stylesheet" href="/css/plugins/odometer-theme-default.css" />
         <link rel="stylesheet" href="/css/main.css" />
+        <link rel="shortcut icon" type="image/x-icon" href="../imgs/favicon.ico"></link>
       </head>
 
       <body suppressHydrationWarning={true} className="body-3">

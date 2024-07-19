@@ -7,14 +7,14 @@ import FooterCta from '../sections/FooterCta';
 
 const MainLayout = ({ children }) => {
   return (
-    <>
+    <div>
       <Header />
       <OffCanvasMenu />
       {children}
       <ScrollToTop />
       <FooterCta />
       <Footer />
-    </>
+    </div>
   );
 };
 

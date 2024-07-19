@@ -1,20 +1,29 @@
 import React from 'react'
 import Link from 'next/link';
+import { usePathname } from "next/navigation";
 
 const Navigation = () => {
+   const pathname = usePathname();
   return (
     <>
       <div className="main-menu">
         <nav id="mobile-menu">
           <ul>
-            <li className="active">
-              <Link href="/">Home</Link>
+            <li>
+              <Link href="/" className={pathname == "/" ? "active" : ""}>
+                Home
+              </Link>
             </li>
             <li>
-              <Link href="/aboutus">About Us</Link>
+              <Link href="/aboutus" className={pathname == "/aboutus" ? "active" : ""}>
+                About Us
+              </Link>
             </li>
             <li>
-              <Link href="/services">Services</Link>
+              <Link href="/services" className={pathname == "/services" ? "active" : ""}>Services</Link>
+            </li>
+            <li>
+              <Link href="/faq" className={pathname == "/faq" ? "active" : ""}>FAQ</Link>
             </li>
           </ul>
         </nav>

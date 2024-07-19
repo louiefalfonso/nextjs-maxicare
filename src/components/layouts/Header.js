@@ -1,24 +1,25 @@
 "use client"
 import React from 'react'
 import Navigation from './Navigation';
+import Link from 'next/link';
 
 const Header = () => {
   return (
-    <>
+    <div data-testid="main-header">
       <header>
         <div id="header-sticky" className="header__area header-1">
           <div className="container">
             <div className="mega__menu-wrapper p-relative">
               <div className="header__main">
                 <div className="header__logo">
-                  <a href="index.html">
+                  <Link href="/">
                     <div className="logo">
                       <img
-                        src="/imgs/logo/logo-black.svg"
+                        src="/imgs/logo/st-lukes-logo-header.svg"
                         alt="logo not found"
                       ></img>
                     </div>
-                  </a>
+                  </Link>
                 </div>
                 <div className="mean__menu-wrapper d-none d-lg-block">
                   <Navigation />
@@ -57,7 +58,7 @@ const Header = () => {
           </div>
         </div>
       </header>
-    </>
+    </div>
   );
 }
 

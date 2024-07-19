@@ -2,7 +2,7 @@ import React from 'react'
 
 const OffCanvasMenu = () => {
   return (
-    <>
+    <div data-testid="main-canvasmenu">
       <div className="fix">
         <div className="offcanvas__area">
           <div className="offcanvas__wrapper">
@@ -11,7 +11,7 @@ const OffCanvasMenu = () => {
                 <div className="offcanvas__logo">
                   <a href="index.html">
                     <img
-                      src="/imgs/logo/logo-black.svg"
+                      src="/imgs/logo/st-lukes-logo-header.svg"
                       alt="logo not found"
                     ></img>
                   </a>
@@ -77,7 +77,7 @@ const OffCanvasMenu = () => {
       </div>
       <div className="offcanvas__overlay" />
       <div className="offcanvas__overlay-white" />
-    </>
+    </div>
   );
 }
 
