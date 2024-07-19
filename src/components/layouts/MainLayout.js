@@ -7,8 +7,8 @@ import FooterCta from '../sections/FooterCta';
 
 const MainLayout = ({ children }) => {
   return (
-    <div>
-      <Header />
+    <div data-testid="main-layout">
+      <Header/>
       <OffCanvasMenu />
       {children}
       <ScrollToTop />

@@ -21,6 +21,10 @@ import './commands'
 
 import { mount } from 'cypress/react18'
 
+import "@/public/css/main.css";
+import "@/public/css/vendor/bootstrap.min.css";
+import "@/public/css/vendor/animate.min.css";
+
 Cypress.Commands.add('mount', mount)
 
 // Example use:
