@@ -24,6 +24,12 @@ import { mount } from 'cypress/react18'
 import "@/public/css/main.css";
 import "@/public/css/vendor/bootstrap.min.css";
 import "@/public/css/vendor/animate.min.css";
+import "@/public/css/plugins/swiper.min.css";
+import "@/public/css/vendor/magnific-popup.css";
+import "@/public/css/vendor/fontawesome-pro.css";
+import "@/public/css/vendor/spacing.css";
+import "@/public/css/plugins/odometer-theme-default.css";
+
 
 Cypress.Commands.add('mount', mount)
 

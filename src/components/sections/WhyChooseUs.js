@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Link from 'next/link';
 import whycus1 from "@/public/imgs/why-choose-us/why-choose-us-shap-2.png";
 
 const WhyChooseUs = () => {
@@ -7,10 +7,7 @@ const WhyChooseUs = () => {
     <div data-testid="whychooseus">
       <section className="why-choose-us">
         <div className="why-choose-us__shap">
-          <img
-            src="/imgs/why-choose-us/why-choose-us-shap-2.png"
-            alt=""
-          />
+          <img src="/imgs/why-choose-us/why-choose-us-shap-2.png" alt="" />
         </div>
         <div className="container">
           <div className="row d-flex align-items-center">
@@ -34,8 +31,8 @@ const WhyChooseUs = () => {
                   sit amet rcus nunc. Duis egestas ante sed tincidunt Making the
                   world talk about you
                 </p>
-                <a
-                  href="about-us.html"
+                <Link
+                  href="/aboutus"
                   className="rr-btn position-relative overflow-hidden"
                 >
                   <div className="panel wow" />
@@ -47,7 +44,7 @@ const WhyChooseUs = () => {
                       Read More <i className="fa-solid fa-plus" />
                     </span>
                   </span>
-                </a>
+                </Link>
               </div>
             </div>
             <div className="col-lg-8">
