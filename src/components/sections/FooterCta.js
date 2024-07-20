@@ -16,7 +16,7 @@ const FooterCta = () => {
                   />
                 </div>
                 <div className="footer__cta-item-text">
-                  <h4 className="color-white mb-15 mb-10">Expert Eye Care</h4>
+                  <h4 className="color-white mb-15 mb-10">Expert Health Care</h4>
                   <p className="color-white mb-0">
                     Et purus duis sollicitudin dignissim habitant. Egestas nulla
                     quis venenatis cras sed eu massa eu faucibus
@@ -35,7 +35,7 @@ const FooterCta = () => {
                 </div>
                 <div className="footer__cta-item-text">
                   <h4 className="color-white mb-15 mb-10">
-                    Eye Health Provider
+                    Exellent Health Provider
                   </h4>
                   <p className="color-white mb-0">
                     Et purus duis sollicitudin dignissim habitant. Egestas nulla

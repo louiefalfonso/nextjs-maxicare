@@ -10,7 +10,7 @@ const HeaderInner = () => {
         <div className="header-4-top theme-bg-primary">
           <div className="container">
             <div className="row">
-              <div className="col-10 d-none d-lg-block">
+              <div className="col-10 col-lg-10 d-none d-lg-block">
                 <div className="header-4-top__menu d-flex">
                   <a href="">
                     <i className="fa-solid fa-location-dot" /> Rizal Drive cor.
@@ -25,7 +25,7 @@ const HeaderInner = () => {
                   </a>
                 </div>
               </div>
-              <div className="col-lg-2 col-12">
+              <div className="col-lg-2 col-2 d-none d-lg-block">
                 <div className="header-4-top__menu-social d-flex justify-content-lg-end justify-content-center">
                   <a href="https://www.facebook.com/">
                     <i className="fab fa-facebook-f" />

@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 const Footer = () => {
   return (
@@ -145,7 +146,8 @@ const Footer = () => {
                     <div className="footer__copyright-menu">
                       <ul>
                         <li>
-                          <a href="about-us.html">Trams &amp; Condition</a>
+
+                          <a href="about-us.html">Terms &amp; Condition</a>
                         </li>
                         <li>
                           <a href="about-us.html">Privacy Policy</a>

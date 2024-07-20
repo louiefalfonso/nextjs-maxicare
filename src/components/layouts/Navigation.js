@@ -35,6 +35,21 @@ const Navigation = () => {
                 FAQ
               </Link>
             </li>
+            <li>
+              <Link href="/pricing" className={pathname == "/pricing" ? "active" : ""}>
+                Pricing
+              </Link>
+            </li>
+            <li>
+              <Link href="/appointment" className={pathname == "/appointment" ? "active" : ""}>
+                Appointment
+              </Link>
+            </li>
+            <li>
+              <Link href="/contact" className={pathname == "/contact" ? "active" : ""}>
+                Contact us
+              </Link>
+            </li>
           </ul>
         </nav>
       </div>

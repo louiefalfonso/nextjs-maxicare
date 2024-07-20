@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import icon from "@/public/imgs/ask-quesiton/heart.png";
 import icon1 from "@/public/imgs/service-2/service-icon-1.png";
 import icon2 from "@/public/imgs/service-2/service-icon-2.png";
@@ -8,7 +9,6 @@ import icon3 from "@/public/imgs/service-2/service-icon-3.png";
 import service1 from "@/public/imgs/service-2/service-1.jpg";
 import service2 from "@/public/imgs/service-2/service-2.jpg";
 import service3 from "@/public/imgs/service-2/service-3.jpg";
-
 
 const ServiceArea = () => {
   return (
@@ -48,112 +48,103 @@ const ServiceArea = () => {
                 <div className="swiper-wrapper">
                   <div className="swiper-slide">
                     <div className="service-2__item">
-                      <a
-                        href="service-details.html"
-                        className="service-2__item-media"
-                      >
+                      <Link href="/services" className="service-2__item-media">
                         <Image
                           className="img-fluid"
                           src={service1}
                           alt="image not found"
                         />
-                      </a>
+                      </Link>
                       <div className="service-2__item-content">
                         <h4 className="mb-20 mb-xs-15 d-flex align-items-start">
-                          <a href="blog-details.html">
+                          <Link href="/services">
                             <Image
                               className="img-fluid mr-15"
                               src={icon1}
                               alt="icon not found"
                             />
-                            InspireHealth Hub
-                          </a>
+                            Inspire Health Hub
+                          </Link>
                         </h4>
                         <ul>
                           <li>Your digital marketing sources</li>
                           <li>Showing the world who you are</li>
                           <li>Making the world talk about you</li>
                         </ul>
-                        <a
+                        <Link
+                          href="/services"
                           className="rr-a-btn mt-30 mt-xs-25 d-block"
-                          href="blog-details.html"
                         >
                           Read More <i className="fa-solid fa-circle-plus" />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
                   <div className="swiper-slide">
                     <div className="service-2__item">
-                      <a
-                        href="service-details.html"
-                        className="service-2__item-media"
-                      >
+                      <Link href="/services" className="service-2__item-media">
                         <Image
                           className="img-fluid"
                           src={service2}
                           alt="image not found"
                         />
-                      </a>
+                      </Link>
                       <div className="service-2__item-content">
                         <h4 className="mb-20 mb-xs-15 d-flex align-items-start">
-                          <a href="blog-details.html">
+                          <Link href="/services">
                             <Image
                               className="img-fluid mr-15"
                               src={icon2}
                               alt="icon not found"
                             />
                             Wellness Solutions
-                          </a>
+                          </Link>
                         </h4>
                         <ul>
                           <li>Your digital marketing sources</li>
                           <li>Showing the world who you are</li>
                           <li>Making the world talk about you</li>
                         </ul>
-                        <a
+                        <Link
+                          href="/services"
                           className="rr-a-btn mt-30 mt-xs-25 d-block"
-                          href="blog-details.html"
                         >
                           Read More <i className="fa-solid fa-circle-plus" />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
                   <div className="swiper-slide">
                     <div className="service-2__item">
-                      <a
-                        href="service-details.html"
-                        className="service-2__item-media"
-                      >
+                      <Link href="/services" className="service-2__item-media">
                         <Image
                           className="img-fluid"
                           src={service3}
                           alt="image not found"
                         />
-                      </a>
+                      </Link>
                       <div className="service-2__item-content">
                         <h4 className="mb-20 mb-xs-15 d-flex align-items-start">
-                          <a href="blog-details.html">
+                          <Link href="/services">
                             <Image
                               className="img-fluid mr-15"
                               src={icon3}
                               alt="icon not found"
                             />
                             Healing Healthcare
-                          </a>
+                          </Link>
                         </h4>
                         <ul>
                           <li>Your digital marketing sources</li>
                           <li>Showing the world who you are</li>
                           <li>Making the world talk about you</li>
                         </ul>
-                        <a
+                        <Link
+                          href="/services"
                           className="rr-a-btn mt-30 mt-xs-25 d-block"
-                          href="blog-details.html"
                         >
                           Read More <i className="fa-solid fa-circle-plus" />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>

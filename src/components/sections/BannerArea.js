@@ -1,10 +1,4 @@
 import React from "react";
-import Image from "next/image";
-
-import banner1 from "@/public/imgs/banner-3/banner-1.png";
-import banner2 from "@/public/imgs/banner-3/banner-2.png";
-import banner3 from "@/public/imgs/banner-3/banner-3.png";
-
 const BannerArea = () => {
   return (
     <div data-testid="bannerarea">
@@ -37,11 +31,7 @@ const BannerArea = () => {
               <div className="banner-3__item position-relative overflow-hidden">
                 <div className="panel wow" />
                 <div className="banner-3__item-media">
-                  <Image
-                    className="img-fluid"
-                    src={banner1}
-                    alt="icon not found"
-                  />
+                  <img className="img-fluid" src="/imgs/banner-3/banner-1.png" alt="icon not found"></img>
                 </div>
               </div>
             </div>
@@ -49,11 +39,7 @@ const BannerArea = () => {
               <div className="banner-3__item position-relative overflow-hidden">
                 <div className="panel wow" />
                 <div className="banner-3__item-media">
-                  <Image
-                    className="img-fluid"
-                    src={banner2}
-                    alt="icon not found"
-                  />
+                  <img className="img-fluid" src="/imgs/banner-3/banner-2.png" alt="icon not found"></img>
                 </div>
               </div>
             </div>
@@ -61,11 +47,7 @@ const BannerArea = () => {
               <div className="banner-3__item position-relative overflow-hidden">
                 <div className="panel wow" />
                 <div className="banner-3__item-media">
-                  <Image
-                    className="img-fluid"
-                    src={banner3}
-                    alt="icon not found"
-                  />
+                  <img className="img-fluid" src="/imgs/banner-3/banner-3.png" alt="icon not found"></img>
                 </div>
               </div>
             </div>
